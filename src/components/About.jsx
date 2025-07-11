@@ -5,7 +5,7 @@ import fondo3 from "../assets/fondo3.png";
 
 export default function About() {
   return (
-    <section className="h-screen w-screen flex items-center justify-center relative overflow-hidden bg-cover bg-center" style={{ backgroundImage: `url(${fondo3})` }}>
+    <section id="about" className="h-screen w-screen flex items-center justify-center relative overflow-hidden bg-cover bg-center" style={{ backgroundImage: `url(${fondo3})` }}>
       <div className="items-center relative w-[1150px] h-5/6">
       <div className="absolute top-8 left-0">
       <h1 className="text-[36px]">Pablo Ojeda</h1>

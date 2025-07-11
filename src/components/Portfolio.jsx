@@ -9,7 +9,7 @@ import fondo2 from "@assets/fondo2.png";
 
 export default function Portfolio() {
   return (
-    <section className="w-screen h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: `url(${fondo2})` }}>
+    <section id='portfolio' className="w-screen h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: `url(${fondo2})` }}>
         <div className="grid grid-cols-5 grid-rows-4 gap-[7px] w-[1150px] h-5/6 bg-black p-[7px]">
         <div className="col-span-2 row-span-1 flex justify-center items-center">
           <ReactPlayer 

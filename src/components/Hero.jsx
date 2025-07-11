@@ -4,7 +4,7 @@ import fondo1 from "../assets/fondo1.png";
 
 export default function Hero() {
   return (
-    <section className="h-screen w-screen flex items-center justify-center relative overflow-hidden bg-cover bg-center" style={{ backgroundImage: `url(${fondo1})` }}>
+    <section id="hero" className="h-screen w-screen flex items-center justify-center relative overflow-hidden bg-cover bg-center" style={{ backgroundImage: `url(${fondo1})` }}>
       <div className="items-center relative min-w-9/12 h-5/6">
       <div className="absolute top-8 left-0">
           <span className="text-[22px] text-black lowercase">en/es</span> 
@@ -16,9 +16,9 @@ export default function Hero() {
           <img src={flecha} height="40" width="40"/> 
         </div>
         <nav className="absolute right-0 top-1/2 transform -translate-y-1/2 flex flex-col items-end gap-4">
-          <a href="#trabajo" className="text-[32px] lowercase leading-relaxed text-black hover:underline">trabajos</a>
-          <a href="#acerca" className="text-[32px] lowercase leading-relaxed text-black hover:underline">acerca</a>
-          <a href="#contacto" className="text-[32px] lowercase leading-relaxed text-black hover:underline">contacto</a>
+          <a href="#portfolio" className="text-[32px] lowercase leading-relaxed text-black hover:underline">trabajos</a>
+          <a href="#about" className="text-[32px] lowercase leading-relaxed text-black hover:underline">acerca</a>
+          <a href="#contact" className="text-[32px] lowercase leading-relaxed text-black hover:underline">contacto</a>
         </nav>
         <div className="absolute left-0 top-1/2 transform -translate-y-1/2 flex flex-col items-end">
           <span className="text-[128px] font-clashbold text-left text-black lowercase -mb-24">pablo</span>
