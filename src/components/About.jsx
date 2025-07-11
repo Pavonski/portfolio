@@ -24,7 +24,7 @@ export default function About() {
       </div>
       </div>
       <div className="h-full flex justify-center items-center">
-        <button className="absolute h-[250px] w-[430px] bg-white text-black px-6 text-[36px] mix-blend-exclusion transition hover:scale-105">
+        <button onClick="location.href='#contact'" type="button" className="absolute h-[250px] w-[430px] bg-white text-black px-6 text-[36px] mix-blend-exclusion transition hover:scale-105">
           contacto
         </button>
       </div>
